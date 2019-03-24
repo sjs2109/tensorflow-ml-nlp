@@ -64,7 +64,7 @@ def enc_processing(value, dictionary):
             # 잘려진 단어가 딕셔너리에 존재 하지 않는 
             # 경우 이므로 UNK(2)를 넣어 준다.
             else:
-                sequence_index.extend([dictionary[UNK]])
+                sequence_index.extend([dictionary[UNKNOWN]])
         
         # 문장 제한 길이보다 길어질 경우 뒤에 토큰을 자르고 있다.
         if len(sequence_index) > DEFINES.max_sequence_length:
