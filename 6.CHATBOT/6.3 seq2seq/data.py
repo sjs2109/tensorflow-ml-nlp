@@ -13,7 +13,7 @@ FILTERS = "([~.,!?\"':;)(])"
 PAD = "<PADDING>"
 STD = "<START>"
 END = "<END>"
-UNK = "<UNKNOWN>"
+UNK = "<UNK>"
 
 PAD_INDEX = 0
 STD_INDEX = 1
