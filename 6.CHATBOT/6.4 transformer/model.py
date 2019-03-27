@@ -2,7 +2,7 @@
 import tensorflow as tf
 import sys
 
-from configs import DEFINES
+
 import numpy as np
 
 
